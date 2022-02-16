@@ -1,0 +1,15 @@
+{
+  "name": "dailybotg3",
+  "version": "1.0.0",
+  "description": "DailyBotG3 permetra de mettre à jour l'avanncement d'une equipe sur un projet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
