@@ -1,0 +1,39 @@
+Bien, voici votre mise à jour d'aujourd'hui pour le Groupe 3.
+
+Qu'avez-vous terminé lors de votre journée de travail précédente ?
+
+J'ai fini de ranger la cuisine.
+
+
+
+
+Sur quoi comptez-vous travailler aujourd'hui ?
+
+Ranger les salons.
+
+
+
+
+Super. Avez-vous des bloqueurs ? Si oui, dites-le moi. Sinon s'il vous plaît dites: non.
+
+Je n'ai pas trouvé le frigo.
+
+
+Bien joué! C'est tout, vous pouvez continuer votre travail.
+
+Bonne journée.
+
+
+
+ bot.on('message', (message) => {
+     console.log(message);
+  
+ });
+
+bot.on('message', (message) => {
+    let chat_id = message.chat.id;
+    //Permet de repondre a un message privé en récuperant l'id du tchat du message envoyé
+
+    bot.sendMessage(chat_id, 'Bonjour mon pote');
+
+});
